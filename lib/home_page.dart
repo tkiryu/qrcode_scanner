@@ -37,10 +37,12 @@ class _HomePageState extends State<HomePage> {
           // Center is a layout widget. It takes a single child and positions it
           // in the middle of the parent.
           ),
+
+      floatingActionButtonLocation: FloatingActionButtonLocation.centerFloat,
       floatingActionButton: FloatingActionButton(
         onPressed: () => Navigator.pushNamed(context, '/qrcode_scanner'),
         tooltip: 'Increment',
-        child: Icon(Icons.add),
+        child: Icon(Icons.qr_code_scanner),
       ), // This trailing comma makes auto-formatting nicer for build methods.
     );
   }

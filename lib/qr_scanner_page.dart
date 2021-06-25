@@ -27,6 +27,7 @@ class _QRCodeScannerPageState extends State<QRCodeScannerPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(),
       body: Column(
         children: <Widget>[
           Expanded(
